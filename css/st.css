@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;
+    max-width: 600px;
+    
+}
+.style {
+    position: absolute;
+    margin: 150px 0 0px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.name {
+  font-size: 60px;
+  font-weight: 700;
+  color: brown;
+  text-align: center;
+  animation: name .1s ease-in-out 1s infinite;
+  animation: blic 1s ease-out infinite;
+  
+}
+
+
+
+.b {
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    
+}m 
+  p {
+    animation: slidein 3s ease-out infinite;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 100%;
+        width: 150%;
+      }
+  }
+@keyframes name {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+
+@keyframes blic {
+  from {
+    text-shadow:0px 0px 10px brown,
+      0px 0px 10px black,   
+      0px -10px 100px #e13267;
+  }
+}
+
+@keyframes blac {
+  from {
+  left: 70px;
+  bottom: 30px;
+  }
+  to {
+    right: 20px;
+    top: 40px;
+  }
+}
